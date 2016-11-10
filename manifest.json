@@ -1,0 +1,19 @@
+{
+  "name": "DolphBlock",
+  "version": "0.0.1.0",
+  "manifest_version": 2,
+  "description" : "Blokuje příspěvky uživatele dolph1888 v diskuzích na živě.cz",
+  "icons": { "16": "icons/16x16.png", "48": "icons/48x48.png", "128": "icons/128x128.png" }, 
+    
+  "content_scripts": [
+    {
+      "matches": ["*://www.zive.cz/*"],
+      "js": ["jquery-2.1.1.js","content.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "devtools_page": "devtools/devtools.html",
+  
+  "permissions": [     "activeTab"   ]
+}
