@@ -1,4 +1,4 @@
-## Developing Google Chrome Extensions Source Code
+## dolphblock1888
 
-Here's the source code for the Nettuts+ article on Developing Google Chrome 
-Extensions, written by Krasimir Tsonev.
+Toto rozšíření pro Chrome blokuje příspěvky uživatele dolph1888 v diskuzích www.zive.cz a příbuzných webech. 
+K přidání do prohlížeče zde: https://chrome.google.com/webstore/detail/enghipkeaocleaigoidghkfihpkbegnl
